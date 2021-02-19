@@ -1,0 +1,641 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  
+}
+body{
+  color: var(--text-color-one);
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #e8f2fd 74%);
+
+}
+:root {
+  --dark-blue: #023059;
+  --light-blue: #c4e1f2;
+  --text-color-one: #000000 70%;
+
+  --h1-color: #7EA19B;
+}
+html {
+  font-size: 62.5%;  
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+
+section,div{
+  /* border: 2px solid black; */
+}
+.none{
+  display: none;
+}
+
+.pofnewsbackground{
+  height: 30px;
+  background-color: var(--dark-blue);
+}
+.pofnewsbackgroundsmallcolor{
+  height: 10px;
+  background-color: aqua;
+}
+.contain{
+  /* padding: 0 30px; */
+  padding: 0 93px 0 73px;
+}
+.contain h1{
+  color: var(--h1-color);
+}
+h1 span{
+  padding-right: 20px;
+}
+section.header{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.header{
+  background-color: #ffffff;
+  margin: 0 -90px;
+  color: #989CA0;
+  font-weight: 400;
+
+  padding: 0 30px;
+}
+.header .poftvlogo{
+  width: 20%;
+  height: 100%;
+  background-color: var(--dark-blue);
+}
+
+.header .navbar{
+  width: stretch;
+  text-align: center;
+}
+
+.header .navbar ul{
+  list-style: none;
+  display: inline-flex;
+}
+
+.header .navbar ul li{
+  padding: 0 40px;
+}
+.header .navbar ul li:hover{
+  font-weight: bold;
+}
+
+/* more  */
+
+.menu-list ul{
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list ul li:hover{
+  background-color: azure;
+}
+.slide{
+  display: none;
+  background-color: #e8f2fd;
+}
+.menu-list ul li:hover .slide{
+  display: block;
+  position: absolute;
+}
+.menu-list ul li:hover .slide ul{
+  display: block;
+}
+.slide ul li{
+  padding: 20px 5px !important;
+}
+.menu-item{
+  cursor: pointer;
+}
+
+.links{
+  text-decoration: none;
+  color: #989CA0;
+}
+
+
+.header .search {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding-left: 5px;
+  height:60%;
+  border-color: #71B7EA;
+  background: #EEF2F2;
+  ;
+}
+
+.header .search input{
+  height: 100%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 85%;
+  background: #EEF2F2;
+}
+i,.header .navbar ul li{
+  cursor: pointer;
+}
+
+.hiddensearch{
+  display: none;
+  font-size: 1.5rem;
+}
+
+
+
+/* home */
+.home{
+  padding: 40px 0;
+}
+
+.welcomedate{
+  display: flex;
+  justify-content: space-between;
+  color: #848484;
+}
+.livesession{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.livesessionvideo{
+  height: auto;
+  max-height: 540px;
+  /* width: 70%; */
+  width: 815px;
+  margin-right: 76px;
+  min-width: 40px;
+}
+.burnachief{
+  height: auto;
+  width: 384px;
+  min-width: 40px;
+  overflow: overlay;
+}
+.burna{
+  height: 250px;
+}
+.burna:nth-child(2) {
+  padding-top: 10px;
+}
+
+.burna .image{
+  height: 200px;
+}
+.titleekiti{
+  display: none;
+}
+.burna .title{
+  height: auto;
+  overflow: hidden;
+}
+.poftvnextprev{
+  display: flex;
+  justify-content: space-between;
+}
+.pottvsession{
+  width: 63%;
+  border-bottom: 2px solid black;
+}
+.pottvsession p{
+  padding: 10px 0;
+}
+.nextprev{
+  display: flex;
+  padding: 10px 0;
+  width: 30%;
+  justify-content: flex-end;
+  border-bottom: 2px solid black;
+}
+.nextprev .prev{
+  margin-right: 10%;
+}
+
+.ekitipeople{
+  width: 63%;
+}
+
+
+/* newssport */
+.newssport h1{
+  padding: 20px 0;
+}
+.pofnewssport{
+  display: flex;
+  justify-content: space-between;
+}
+.pofnewssport .details{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  height: 260px;
+}
+.advert{
+  width: 25%;
+  background: beige;
+}   
+.advert.two{
+  margin-top: -70px;
+  margin-bottom: -220px;
+}
+.advert.three{
+  margin-top: -70px;
+}
+.fayose{
+  height: 100%;
+  width: 300px;
+  overflow: hidden;
+  margin-right: 19px;
+}
+.fayoseimage{
+  height: 70%;
+}
+.fayosetext{
+  height: 30%;
+  padding: 0 10px;
+}
+.fayose.none{
+  display: none;
+}
+
+
+/* ile oba to jona */
+.ileoba{
+  height: 200px;
+  background: url(https://static-cse.canva.com/image/125213/texture.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-right: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.tojo h1{
+  font-size: 3rem;
+  color: white;
+}
+
+
+/* wish  */
+.wish{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 20px 10px;
+  border-bottom: 2px solid black;
+}
+
+.wish .poftvlogo{
+  width: 20%;
+  background-color: var(--dark-blue);
+}
+
+.wish .text{
+  width: 75%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-size: 28px; */
+  font-style: normal;
+  font-weight: 350;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.wish .text p{
+  padding-top: 20px;
+}
+
+/* malachimasterclass */
+.malachimasterclass{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.malachimasterclass .dance{
+  height: 370px;
+  width: 45%;
+  min-width: 200px;
+  margin-top: 20px;
+}
+
+
+
+/* lastadvert */
+.lastadvert{
+  margin-bottom: 40px;
+}
+
+.lastadvert .dance{
+  height: 180px;
+}
+.lastadvert .dance.two{
+  display: flex;
+  justify-content: space-between;
+}
+.lastadvert .danceadvert{
+  width: 45%;
+  margin-top: 20px;
+}
+
+/* all images  */
+.livesessionvideo,.image,.fayoseimage,.advert,.poftvlogo,.dance,.danceadvert{
+  overflow: hidden;
+}
+
+/* footer  */
+footer{
+  padding: 10px 70px 10px 90px;
+  background: #5F5E67 80%;
+}
+footer .explore{
+  
+}
+.allnavsbelow{
+  border-bottom: 1px solid #F0F0F0 ;
+}
+.homenewssport{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.homenewssport .all{
+  padding: 20px;
+  border-right: 1px solid #F0F0F0;
+}
+.homenewssport .all:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+.copyright{
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+  .disable {
+    display: none;
+  }
+  .none{
+      display: block;
+  }
+  .ileoba{
+      padding-right: 30%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .homenewssport .all{
+      padding: 20px;
+      border-right: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .menu-list ul li:hover .slide {
+    display: block;
+    position: absolute;
+    right: 10%;
+}
+  .lastadvert .dance.two{
+      display: block;
+      text-align: center;
+  }
+  .lastadvert .danceadvert {
+      height: 50%;
+  }
+  .lastadvert .danceadvert{
+      width: 100%;
+  }
+  .pottvsession{
+      width: 58%;
+  }
+  
+  .nextprev{
+      width: 25%;
+  }
+  .ekitipeople{
+      width: 58%;
+  }
+
+}
+
+@media screen and (max-width: 700px){
+  html{
+      font-size: 80%;
+  }
+  .contain{
+      padding: 0 10px;
+  }
+  *{
+      font-size: 1.2rem;
+  }
+  .header{
+      margin: 0;
+  }
+  .header .navbar ul li{
+  padding: 10px;
+  }
+  .header .search {
+      display: none;
+  }
+  .hiddensearch{
+      display: block;
+  }
+  
+
+  .livesession{
+      padding-top: 10px;
+      display: block;
+  }
+  .livesessionvideo {
+      height: 300px;
+      width: 100%;
+      min-width: 40px;
+  }
+  .burnachief {
+      height: auto;
+      width: 80%;
+      min-width: 40px;
+      margin: auto;
+      margin-top: 10px;
+  }
+  .poftvnextprev{
+      display: none;
+  }
+  .welcomedate{
+      display: none;
+  }
+  .home{
+      padding-top: 0;
+  }
+  .burna{
+      padding: 10px 0;
+  }
+  .burna.try{
+      padding: 0;
+  }
+  .burna.try .title{
+      padding: 5px 0;
+  }
+  .burna,.titleekiti {
+      height: auto;
+      border-bottom: 1px solid black;
+  }
+  .burna .image,.ekitipeople{
+      display: none;
+  }
+  .titleekiti{
+      display: block;
+  }
+  .title,.titleekiti{
+      padding: 7px 0;
+  }
+
+  /* .pofnewssport */
+  .pofnewssport .details{
+      width: 100%;
+      display: block;
+      height: 260px;
+  }
+  .pofnewssport .advert{
+      display: none;
+  }
+  .fayose {
+      height: 100%;
+      width: 80%;
+      overflow: hidden;
+      margin: auto;
+  }
+  .fayoseimage {
+      height: 270px;
+  }
+  .fayoseimage.remove{
+      display: none;
+  }
+  .pofnewssport .details {
+      width: 100%;
+      display: block;
+      height: 100%;
+  }
+  .fayose.comot{
+      display: none;
+  }
+  .fayose.none{
+      display: block;
+  }
+  .fayosetext{
+      border-bottom: 1px solid black;
+      padding: 0;
+  }
+
+  /* ileoba to jona */
+  .ileoba{
+      padding: 40px 0;
+  }
+
+  /* .wish  */
+  .wish{
+      display: block;
+  }
+  .wish .text{
+      width: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+  .wish .poftvlogo{
+      height: 80px;
+      width: 30%;
+      min-width: 140px;
+  }
+  /* malachi  */
+  .malachimasterclass .dance{
+      height: auto;
+      min-width: 80%;
+      width: 80%;
+  }
+  .malachimasterclass{
+      justify-content: center;
+  }
+  /* footer  */
+  footer{
+      padding: 15px 0;
+  }
+  footer .explore{
+      text-align: center;
+      
+  }
+  .homenewssport{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+  }
+} 
+@media screen and (max-width: 400px){
+  .burnachief {
+      height: auto;
+      width: 100%;
+  }
+  .fayose {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      margin: auto;
+  }
+  .fayosetext{
+      padding: 0;
+  }
+  .malachimasterclass .dance{
+      /* height: 200px; */
+      min-width: 100%;
+      width: 100%;
+  }
+}
+
+/* button  */
+#myBtn {
+  /* display: none; Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: transparent; /* Set a background color */
+  color: #E4E4E4; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+}
+#myBtn{
+    font-size: 3rem;
+}
+
+
+#myBtn:hover {
+  background-color: #5F5E67; /* Add a dark-grey background on hover */
+}
