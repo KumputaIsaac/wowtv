@@ -1,6 +1,18 @@
 import React from 'react'
 
 const Home = () => {
+    var d = new Date();
+    var day=d.getDay();
+    var date= d.getDate();
+    var month = d.getMonth();
+    var weekday = ["Sunday","Monday","Monday","Wednesday","Thursday","Friday","Saturday"]
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var realday = weekday[day];
+    var realmonth = months[month];
+    var realdate = `${realday}  ${date},  ${ realmonth}`
+
+
+
     return (
             <section className="home">
                 <div className="welcomedate">
@@ -8,7 +20,7 @@ const Home = () => {
                         <h1>Welcome to POF TV</h1>
                     </div>
                     <div className="date">
-                        <h1 id="date">Thursday 21, January</h1>
+                        <h1 id="date">{realdate}</h1>
                     </div>
                 </div>
                 <div className="livesession">
