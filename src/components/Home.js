@@ -1,20 +1,20 @@
 import React from 'react'
 
 const Home = () => {
-    var d = new Date();
-    var day=d.getDay();
-    var date= d.getDate();
-    var month = d.getMonth();
-    var weekday = ["Sunday","Monday","Monday","Wednesday","Thursday","Friday","Saturday"]
-    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    var realday = weekday[day];
-    var realmonth = months[month];
-    var realdate = `${realday}  ${date},  ${ realmonth}`
+    let d = new Date();
+    let day=d.getDay();
+    let date= d.getDate();
+    let month = d.getMonth();
+    let weekday = ["Sunday","Monday","Monday","Wednesday","Thursday","Friday","Saturday"]
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    let realday = weekday[day];
+    let realmonth = months[month];
+    let realdate = `${realday}  ${date},  ${ realmonth}`
 
 
 
     return (
-            <section className="home">
+            <section id='home' className="home">
                 <div className="welcomedate">
                     <div className="welcome">
                         <h1>Welcome to POF TV</h1>

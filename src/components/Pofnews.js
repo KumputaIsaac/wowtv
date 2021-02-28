@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pofnews = () => {
     return (
-        <section className="newssport">
+        <section id='news' className="newssport">
             <h1><span>&#8928;</span>POF NEWS</h1>
             <div className="pofnewssport">
                 <div className="details">

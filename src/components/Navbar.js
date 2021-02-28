@@ -12,24 +12,24 @@ const Navbar = () => {
                     </div>
                     <div className="navbar">
                         <ul>
-                            <li>HOME</li>
-                            <li>NEWS</li>
-                            <li className="disable">SPORT</li>
-                            <li className="disable">POLITICS</li>
-                            <li className="disable">ENTERTAINMENT</li>
+                            <li><a className="links" href="#home">HOME</a></li>
+                            <li><a className="links" href="#news">NEWS</a></li>
+                            <li className="disable"><a className="links" href="#newssport">SPORT</a> </li>
+                            <li className="disable"><a className="links" href="#politics">POLITICS</a></li>
+                            <li className="disable"><a className="links" href="#entertainment">ENTERTAINMENT</a></li>
                             {/* <li className="none">
                                 MORE
                                  <span>&#8964</span> 
                             </li> */}
-                            <div className="menu-list none">
+                            <div className="menu-list none"> 
                         <ul>
                             
                             <li className="menu-item"> MORE <span>&#9660; </span>
                                 <div className="slide">
                                     <ul>
-                                        <li><a className="links" href="/">SPORT</a></li>
-                                        <li><a className="links" href="/">POLITICS</a></li>
-                                        <li><a className="links" href="/">ENTERTAINMENT</a></li>
+                                        <li><a className="links" href="#newssport">SPORT</a></li>
+                                        <li><a className="links" href="#politics">POLITICS</a></li>
+                                        <li><a className="links" href="#entertainment">ENTERTAINMENT</a></li>
                                     </ul>
                                 </div>    
                             </li>

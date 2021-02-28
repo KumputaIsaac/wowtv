@@ -146,6 +146,10 @@ section.header{
   width: 85%;
   background: #EEF2F2;
 }
+
+.header .search i{
+  padding-right: 5px;
+}
 i,.header .navbar ul li{
   cursor: pointer;
 }
@@ -367,8 +371,9 @@ footer{
   padding: 10px 70px 10px 90px;
   background: #5F5E67 80%;
 }
-footer .explore{
-  
+footer .allnavsbelow a{
+  text-decoration: none;
+  color: black;
 }
 .allnavsbelow{
   border-bottom: 1px solid #F0F0F0 ;
@@ -588,7 +593,6 @@ footer .explore{
   }
   footer .explore{
       text-align: center;
-      
   }
   .homenewssport{
       display: flex;

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Politics = () => {
     return (
-        <section className="newssport">
-            <h1><span>&#8928;</span>POF NEWS</h1>
+        <section id='politics' className="newssport">
+            <h1><span>&#8928;</span>POLITICS</h1>
             <div className="pofnewssport">
                 <div className="details">
                     <div className="fayose">

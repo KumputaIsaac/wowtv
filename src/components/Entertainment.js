@@ -2,7 +2,7 @@ import React from 'react'
 
 const Entertainment = () => {
     return (
-        <section className="newssport">
+        <section id='entertainment' className="newssport">
             <h1><span>&#8928;</span>ENTERTAINMENT</h1>
             <div className="pofnewssport">
                 <div className="details">
