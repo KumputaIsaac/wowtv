@@ -600,7 +600,7 @@ footer .allnavsbelow a{
       justify-content: flex-start;
   }
 } 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
   .burnachief {
       height: auto;
       width: 100%;
