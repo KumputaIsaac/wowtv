@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 const Newspage = () => {
     return (
@@ -6,7 +7,7 @@ const Newspage = () => {
             <div class="newshome">
                 <h1>NEWS</h1>
                 <div class="homenews">
-                    <p><a href="/">Home</a> </p>
+                    <Link to='/'> <p> Home </p></Link>
                     <p>News</p>
                 </div>
             </div>
