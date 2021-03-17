@@ -50,7 +50,7 @@ const Home = () => {
                             </div>
                             <div className="title">
                                 <h3>The Old Chief AYETADE AKANBI Explains  Ekiti Values</h3>
-                                <p>The Chief of Ayedun West Hillside commented on Value sys- tem and its present degade.</p>
+                                <p>The Chief of Ayedun West Hillside commented on Value system and its present degade.</p>
                             </div>
                             <div className="details">
 

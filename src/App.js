@@ -8,21 +8,45 @@ import Navbar from './components/Navbar';
 import Pofnews from './components/Pofnews';
 import Politics from './components/Politics';
 import Sports from './components/Sports';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Newspage from './components/Newspage';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <div className="contain">
-        <Home />
-        <Pofnews />
-        <Sports />
-        <Ileoba />
-        <Politics />
-        <Entertainment />
-        <Malachimasterclass />
-      </div>
-      <Footer />
+      
+
+      <Router >
+        <Switch>
+          <Route exact path="/">
+            <Navbar />
+            <div className="contain">
+              <Home />
+              <Pofnews />
+              <Sports />
+              <Ileoba />
+              <Politics />
+              <Entertainment />
+              <Malachimasterclass />
+            </div>
+            <Footer />
+          </Route>
+          <Route path="/news">
+            <div className="contain">
+              <Newspage />
+            </div>
+            <Footer />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+      
     </>
   );
 }

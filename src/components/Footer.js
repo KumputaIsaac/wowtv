@@ -17,15 +17,15 @@ const Footer = () => {
                 </div>
                 <div className="allnavsbelow">
                     <div className="homenewssport">
-                        <div className="all"><a href="#home">HOME</a></div>
-                        <div className="all"><a href="#news">NEWS</a></div>
+                        <div className="all"><a href="/">HOME</a></div>
+                        <div className="all"><a href="/news">NEWS</a></div>
                         <div className="all"><a href="#newssport">SPORT</a> </div>
                         <div className="all"><a href="#politics">POLITICS</a></div>
                         <div className="all"><a href="#entertainment">ENTERTAINMENT</a></div>
                     </div>
                 </div>
                 <div className="copyright">
-                    <h2>&copy 2021  All Right Reserved</h2>
+                    <h2>&copy; 2021  All Right Reserved</h2>
                 </div>
             </footer>
         </div>
