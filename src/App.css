@@ -10,7 +10,9 @@
 body{
   color: var(--text-color-one);
   background-color: #ffffff;
-  background-image: linear-gradient(315deg, #ffffff 0%, #e8f2fd 74%);
+  /* background-image: linear-gradient(315deg, #ffffff 0%, #e8f2fd 74%); */
+  background: url(https://static.vecteezy.com/system/resources/previews/000/701/682/original/pastel-blue-banner-design-vector.jpg);
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
 
 }
 
@@ -312,11 +314,17 @@ i,.header .navbar ul li{
   height: auto;
   padding: 20px 10px;
   border-bottom: 2px solid black;
+  background: url(./image/watermark.PNG);
+  /* background-color:rgba(8, 8, 8, 0.5); */
+
 }
+
+
 
 .wish .poftvlogo{
   width: 20%;
   background-color: var(--dark-blue);
+  background: url(./image/watermark.PNG) no-repeat;
 }
 
 .wish .text{
@@ -568,6 +576,7 @@ footer .allnavsbelow a{
   /* .wish  */
   .wish{
       display: block;
+      /* background: url('./image/watermark.PNG'); */
   }
   .wish .text{
       width: 100%;
@@ -658,7 +667,7 @@ footer .allnavsbelow a{
 .newshome{
   /* height: 136px; */
   text-align: center;
-  background-image: url("https://lh3.googleusercontent.com/proxy/Tq_PonCqO29EdIMiu2OT9D7czfQKCJWLPh0WRltHRYYuGTeu4BHm-1VT1PMPNnG2BBH0Y5g8PiwqqLrYjUWrzrl90vmt6Xh6vNJPnG7bH-zk2nBkBKPwQ_nRz9K8S4C5p9AS_sNmklB0QTXyak1_BnuJ4QA-ZfKto3vz1DAaZA");
+  background-image: url(./image/zuma.PNG);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 3rem;
