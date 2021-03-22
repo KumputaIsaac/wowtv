@@ -8,7 +8,7 @@ const Politics = () => {
                 <div className="details">
                     <div className="fayose">
                         <div className="fayoseimage">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://www.naijaloaded.com.ng/wp-content/uploads/2020/11/teni.jpg" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">
@@ -20,7 +20,7 @@ const Politics = () => {
 
                     <div className="fayose">
                         <div className="fayoseimage remove">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://pbs.twimg.com/media/ExEi4ruWEAEgQr1?format=jpg&name=900x900" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">
@@ -32,7 +32,7 @@ const Politics = () => {
 
                     <div className="fayose comot">
                         <div className="fayoseimage">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://pbs.twimg.com/media/ExEi5u7WYAMF_Kh?format=jpg&name=medium" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">

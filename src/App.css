@@ -28,7 +28,7 @@ html {
 }
 img{
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 a{
   text-decoration: none;
@@ -441,7 +441,7 @@ footer .allnavsbelow a{
       text-align: center;
   }
   .lastadvert .danceadvert {
-      height: 50%;
+      /* height: 50%; */
   }
   .lastadvert .danceadvert{
       width: 100%;
@@ -459,7 +459,7 @@ footer .allnavsbelow a{
 
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
   html{
       font-size: 80%;
   }
@@ -488,7 +488,7 @@ footer .allnavsbelow a{
       display: block;
   }
   .livesessionvideo {
-      height: 300px;
+      /* height: 300px; */
       width: 100%;
       min-width: 40px;
   }
@@ -535,19 +535,19 @@ footer .allnavsbelow a{
   .pofnewssport .details{
       width: 100%;
       display: block;
-      height: 260px;
+      /* height: 260px; */
   }
   .pofnewssport .advert{
       display: none;
   }
   .fayose {
-      height: 100%;
+      /* height: 100%; */
       width: 80%;
       overflow: hidden;
       margin: auto;
   }
   .fayoseimage {
-      height: 270px;
+      /* height: 270px; */
   }
   .fayoseimage.remove{
       display: none;
@@ -620,7 +620,7 @@ footer .allnavsbelow a{
       width: 100%;
   }
   .fayose {
-      height: 100%;
+      /* height: 100%; */
       width: 100%;
       overflow: hidden;
       margin: auto;

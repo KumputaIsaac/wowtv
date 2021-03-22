@@ -8,7 +8,7 @@ const Pofnews = () => {
                 <div className="details">
                     <div className="fayose">
                         <div className="fayoseimage">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://naija.com/wp-content/uploads/2020/10/19a.jpg" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">
@@ -20,7 +20,7 @@ const Pofnews = () => {
 
                     <div className="fayose">
                         <div className="fayoseimage">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://miro.medium.com/proxy/0*9N9J9YiGJrISLIBP.png" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">
@@ -32,7 +32,7 @@ const Pofnews = () => {
 
                     <div className="fayose comot">
                         <div className="fayoseimage">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://www.naijaloaded.com.ng/wp-content/uploads/2021/03/pjimage-17.jpg" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">

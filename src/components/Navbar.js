@@ -15,21 +15,19 @@ const Navbar = () => {
                         <ul>
                             <Link to='/'><li>HOME</li></Link>
                             <Link to='/news'><li>NEWS</li></Link>
-                            <li className="disable"><a className="links" href="#newssport">SPORT</a> </li>
-                            <li className="disable"><a className="links" href="#politics">POLITICS</a></li>
+                            <Link to='/sport'><li className="disable">SPORT</li> </Link>
+                            <Link to ='/politics'> <li className="disable">POLITICS </li></Link>
                             <li className="disable"><a className="links" href="#entertainment">ENTERTAINMENT</a></li>
-                            {/* <li className="none">
-                                MORE
-                                 <span>&#8964</span> 
-                            </li> */}
+                            
                             <div className="menu-list none"> 
                         <ul>
                             
                             <li className="menu-item"> MORE <span>&#9660; </span>
                                 <div className="slide">
                                     <ul>
-                                        <li><a className="links" href="#newssport">SPORT</a></li>
-                                        <li><a className="links" href="#politics">POLITICS</a></li>
+                                        <Link to='/sport'><li>SPORT</li></Link>
+                                        <Link to='/politics'><li>POLITICS</li></Link>
+                                        {/* <li><a className="links" href="#politics">POLITICS</a></li> */}
                                         <li><a className="links" href="#entertainment">ENTERTAINMENT</a></li>
                                     </ul>
                                 </div>    

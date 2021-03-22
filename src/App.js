@@ -8,6 +8,8 @@ import Navbar from './components/Navbar';
 import Pofnews from './components/Pofnews';
 import Politics from './components/Politics';
 import Sports from './components/Sports';
+import Sportpage from './components/Sportpage';
+import Politicspage from './components/Politicspage';
 import {
   BrowserRouter as Router,
   Switch,
@@ -36,9 +38,15 @@ function App() {
             <Footer />
           </Route>
           <Route path="/news">
-            
-              <Newspage />
-            
+            <Newspage />
+            <Footer />
+          </Route>
+          <Route path="/politics">
+            <Politicspage />
+            <Footer />
+          </Route>
+          <Route path="/sport">
+            <Sportpage />
             <Footer />
           </Route>
           <Route path="/">

@@ -20,8 +20,8 @@ const Footer = () => {
                     <div className="homenewssport">
                         <div className="all"><Link to='/'>HOME</Link></div>
                         <div className="all"><Link to='/news'> NEWS</Link></div> 
-                        <div className="all"><a href="#newssport">SPORT</a> </div>
-                        <div className="all"><a href="#politics">POLITICS</a></div>
+                        <div className="all"><Link to='/sport'>SPORT </Link> </div>
+                        <div className="all"><Link to='/politics'> POLITICS</Link> </div>
                         <div className="all"><a href="#entertainment">ENTERTAINMENT</a></div>
                     </div>
                 </div>

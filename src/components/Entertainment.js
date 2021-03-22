@@ -8,7 +8,7 @@ const Entertainment = () => {
                 <div className="details">
                     <div className="fayose">
                         <div className="fayoseimage">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://www.naijaloaded.com.ng/wp-content/uploads/2021/03/burna-2-copy.jpg" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">
@@ -20,7 +20,7 @@ const Entertainment = () => {
 
                     <div className="fayose">
                         <div className="fayoseimage remove">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://i.guim.co.uk/img/media/216a6d86592a72e2068cf60a8edc9d42256fa13f/0_272_1707_1023/master/1707.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=9e96dfd5989947f91315e89c59bbd7bd" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">
@@ -32,7 +32,7 @@ const Entertainment = () => {
 
                     <div className="fayose comot">
                         <div className="fayoseimage">
-                            <img src="https://image.shutterstock.com/image-vector/silhouette-people-raise-hand-concert-600w-1278809974.jpg" alt=""/>
+                            <img src="https://static.billboard.com/files/2020/04/Davido-press_courtesy-of-Davido-Billboard-1548-1587682585-1024x677.jpg" alt=""/>
                         </div>
                         <div className="fayosetext">
                             <div className="title">
