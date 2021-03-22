@@ -5,17 +5,17 @@ const Newspage = () => {
     return (
         <div>
             <div class="newshome">
-                <h1>NEWS</h1>
+                <h1 style={{color:'#FEFEFE'}}>NEWS</h1>
                 <div class="homenews">
                     <Link to='/'> <p> Home </p></Link>
                     <p>News</p>
                 </div>
             </div>
-
-                <div class="newspicloprem">
-                    <div class="picture">
-                        <img src="https://domz60.files.wordpress.com/2018/01/ki.jpg" alt=""/>
-                    </div>
+                <div className="contain">
+                    <div class="newspicloprem">
+                        <div class="picture">
+                            <img src="https://domz60.files.wordpress.com/2018/01/ki.jpg" alt=""/>
+                        </div>
                     <div class="lopremtext">
                         <h1>Lorem Ipsum </h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -91,6 +91,8 @@ const Newspage = () => {
                     </p>
                 </div>
             </div>
+                </div>
+                
         </div>
         
     )

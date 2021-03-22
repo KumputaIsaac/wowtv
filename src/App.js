@@ -36,9 +36,9 @@ function App() {
             <Footer />
           </Route>
           <Route path="/news">
-            <div className="contain">
+            
               <Newspage />
-            </div>
+            
             <Footer />
           </Route>
           <Route path="/">
