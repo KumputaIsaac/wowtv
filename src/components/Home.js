@@ -25,7 +25,7 @@ const Home = () => {
                 </div>
                 <div className="livesession">
                     <div className="livesessionvideo">
-                        <img src="https://image.shutterstock.com/image-vector/singer-man-character-abstract-color-600w-1545548972.jpg" alt=""/>
+                        <img src="https://miro.medium.com/max/960/1*NjFV7dKXAsnCTAZW-WKBBA.jpeg" alt=""/>
                     </div>
                     <div className="burnachief">
                         <div className="burna try">
@@ -33,11 +33,11 @@ const Home = () => {
                                 <img src="https://storage.googleapis.com/assets-pam-blog/2020/06/b86c5b00-burna-boy-wonderful.jpg" alt=""/>
                             </div>
                             <div className="titleekiti">
-                                <b>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs</b>
+                                <b>EKITI PEOPLE CULTURALLY HOMOGENEOUS PRACTICES AND HIGHLT ESTEEMED VALUE SYSTEM</b>
                             </div>
                             <div className="title">
-                                <h3>Burna song in biden innuguration</h3>
-                                <p>the 46 song wey biden wan use enter post, na burna day king am</p>
+                                <h3>Burna Boy’s Song in Biden Inauguration Playlist</h3>
+                                <p>The 46-songs playlist was curated to reflect diversity in the US.</p>
                             </div>
                             <div className="details">
 
@@ -73,7 +73,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="ekitipeople">
-                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs</p>
+                    <p>EKITI PEOPLE CULTURALLY HOMOGENEOUS PRACTICES AND HIGHLT ESTEEMED VALUE SYSTEM</p>
                 </div>
             </section>
     

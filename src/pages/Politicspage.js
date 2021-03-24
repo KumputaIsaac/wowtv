@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Newspage = () => {
     return (
         <div>
-            <div class="newshome" style={{background:'url(https://topstarmovies.com/wp-content/uploads/2020/03/FB_IMG_1585507394271.jpg)'}}>
+            <div class="newshome" >
                 <h1 style={{color:'#FEFEFE'}}>POLITICS</h1>
                 <div class="homenews">
                     <Link to='/'> <p> Home </p></Link>

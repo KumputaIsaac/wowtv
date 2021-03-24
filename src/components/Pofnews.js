@@ -12,8 +12,8 @@ const Pofnews = () => {
                         </div>
                         <div className="fayosetext">
                             <div className="title">
-                                <h3>Burna song in biden innuguration</h3>
-                                <p>the 46 song wey biden wan use enter post, na burna day king am</p>
+                                <h3>The House Of Represntatives Ekiti, </h3>
+                                <p>Fayose Bewitched, Enslaved Ekiti People For Four Years – Omotunde | </p>
                             </div>
                         </div>
                     </div>

@@ -12,8 +12,8 @@ const Entertainment = () => {
                         </div>
                         <div className="fayosetext">
                             <div className="title">
-                                <h3>Burna song in biden innuguration</h3>
-                                <p>the 46 song wey biden wan use enter post, na burna day king am</p>
+                                <h3>Athletes storm Ado Ekiti for AFN classicsSport </h3>
+                                <p>Ekiti State: Cross River Athlete Emerges Winner Of Maiden Ikogosi Marathon – Ekiti State</p>
                             </div>
                         </div>
                     </div>

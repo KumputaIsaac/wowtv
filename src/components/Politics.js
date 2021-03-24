@@ -37,7 +37,7 @@ const Politics = () => {
                         <div className="fayosetext">
                             <div className="title">
                                 <h3>Burna song in biden innuguration</h3>
-                                <p>the 46 song wey biden wan use enter post, na burna day king am</p>
+                                <p>Ekiti State: Road plan to be used for speed on illegal sports racing</p>
                             </div>
                         </div>
                     </div>

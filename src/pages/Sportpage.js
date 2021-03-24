@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Newspage = () => {
     return (
         <div>
-            <div class="newshome" style={{background:'url(https://lh3.googleusercontent.com/proxy/wAcI_3uebvD0C_Np-Fp_t2G1AUhRyNBD8MWYHXuux-OSVcHmG2OXvYYFmmjv1v1sNpsyrjsm9RrtD2yOU2Ozd5SFl47akA37A0Y_nJqQbh76U3P9qENC204Iz21lp8TM6ssQvPihYBBK)'}}>
+            <div class="newshome" >
                 <h1 style={{color:'#FEFEFE'}}>SPORT</h1>
                 <div class="homenews">
                     <Link to='/'> <p> Home </p></Link>

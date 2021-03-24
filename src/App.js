@@ -1,58 +1,34 @@
 import './App.css';
-import Entertainment from './components/Entertainment';
 import Footer from './components/Footer';
-import Home from './components/Home';
-import Ileoba from './components/Ileoba';
-import Malachimasterclass from './components/Malachimasterclass';
-import Navbar from './components/Navbar';
-import Pofnews from './components/Pofnews';
-import Politics from './components/Politics';
-import Sports from './components/Sports';
-import Sportpage from './components/Sportpage';
-import Politicspage from './components/Politicspage';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import Newspage from './components/Newspage';
+import Sportpage from './pages/Sportpage';
+import Politicspage from './pages/Politicspage';
+import Newspage from './pages/Newspage';
+import Homepage from './pages/Homepage';
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import Entertainmentpage from './pages/Entertainmentpage';
 
 function App() {
   return (
     <>
-      
-
       <Router >
         <Switch>
           <Route exact path="/">
-            <Navbar />
-            <div className="contain">
-              <Home />
-              <Pofnews />
-              <Sports />
-              <Ileoba />
-              <Politics />
-              <Entertainment />
-              <Malachimasterclass />
-            </div>
-            <Footer />
+            <Homepage />
           </Route>
           <Route path="/news">
             <Newspage />
-            <Footer />
           </Route>
           <Route path="/politics">
             <Politicspage />
-            <Footer />
           </Route>
           <Route path="/sport">
             <Sportpage />
-            <Footer />
           </Route>
-          <Route path="/">
-            <Home />
+          <Route path="/entertainment">
+            <Entertainmentpage />
           </Route>
         </Switch>
+        <Footer />
       </Router>
       
     </>
