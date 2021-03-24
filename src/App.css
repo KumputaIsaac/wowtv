@@ -9,7 +9,7 @@
 }
 body{
   color: var(--text-color-one);
-  background: url(https://i.pinimg.com/736x/e4/e4/b6/e4e4b6fd69b547817447da03dcc131ef.jpg);
+  /* background: url(https://i.pinimg.com/736x/e4/e4/b6/e4e4b6fd69b547817447da03dcc131ef.jpg); */
   background-repeat: no-repeat;
   background-position: center; 
   background-repeat: no-repeat; 
@@ -46,7 +46,7 @@ section,div{
 
 .pofnewsbackground{
   height: 40px;
-  background-color: var(--dark-blue);
+  /* background-color: var(--dark-blue); */
   background: linear-gradient(90deg, rgba(49, 61, 65, 0.973958) 1.64%, rgba(68, 90, 97, 0) 18.32%, rgba(66, 86, 93, 0.121745) 31.97%, rgba(49, 61, 65, 0.973958) 46.63%, rgba(68, 90, 97, 0.0178572) 64.83%, rgba(68, 90, 97, 0.0593562) 76.97%, #445A61 98.7%),
   linear-gradient(0deg, rgba(68, 90, 97, 0.9), rgba(68, 90, 97, 0.9));
   display: flex;
