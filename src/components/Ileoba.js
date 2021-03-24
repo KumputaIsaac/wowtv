@@ -13,7 +13,7 @@ const Ileoba = () => {
                 <div className="poftvlogo">
                     {/* <img src={watermark} alt=""/> */}
                 </div>
-                <div className="text" style={{backgroundColor:' rgba(177,231,253, 0.7)'}}>
+                <div className="text">
                     <h2>Wishes her Viewers a Happy new year</h2>
                     <p>
                         Here's wishing that the new year will bring joy, love, peace, and happiness to you. Wishing you a Happy New Year 2021,

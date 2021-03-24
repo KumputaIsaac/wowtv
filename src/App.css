@@ -340,7 +340,7 @@ i,.header .navbar ul li{
   height: auto;
   padding: 20px 10px;
   border-bottom: 2px solid black;
-  background: url(./image/watermark.PNG);
+  background: url(./image/logo2.jpg);
   /* background-color:rgba(8, 8, 8, 0.5); */
 
 }
@@ -354,7 +354,7 @@ i,.header .navbar ul li{
 }
 
 .wish .text{
-  width: 80%;
+  width: 90%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* font-size: 28px; */
   font-style: normal;
@@ -362,6 +362,7 @@ i,.header .navbar ul li{
   line-height: 37px;
   letter-spacing: 0em;
   text-align: left;
+  background-color: rgba(220,240,239,0.8);
 
 }
 .wish .text p{

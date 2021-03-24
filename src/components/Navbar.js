@@ -18,7 +18,7 @@ const Navbar = () => {
                             <Link to='/news'><li>NEWS</li></Link>
                             <Link to='/sport'><li className="disable">SPORT</li> </Link>
                             <Link to ='/politics'> <li className="disable">POLITICS </li></Link>
-                            <Link to='/entertainment'> <li className="disable">Entertainment</li></Link>
+                            <Link to='/entertainment'> <li className="disable">ENTERTAINMENT</li></Link>
                             
                             <div className="menu-list none"> 
                         <ul>
