@@ -9,11 +9,13 @@
 }
 body{
   color: var(--text-color-one);
+  /* background-color:linear-gradient(#dcf0ef, #e7f8f7, #f3fdfd); ; */
+  background-image: linear-gradient(#dcf0ef, #e7f8f7, #f3fdfd);
   /* background: url(https://i.pinimg.com/736x/e4/e4/b6/e4e4b6fd69b547817447da03dcc131ef.jpg); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center; 
   background-repeat: no-repeat; 
-  background-size: cover; 
+  background-size: cover;  */
   /* transform: matrix(1, 0, 0, -1, 0, 0); */
 
 }
@@ -645,7 +647,8 @@ footer .allnavsbelow a{
     padding-right: 10px;
   }
   .header .navbar ul li {
-    padding: 5px;
+    padding: 7px;
+    font-size: 1rem;
 }
 .header .poftvlogo {
   width: 30%;

@@ -14,10 +14,10 @@ const Newspage = () => {
             <div className="contain">
                 <div class="newspicloprem">
                     <div class="picture">
-                        <img src="https://domz60.files.wordpress.com/2018/01/ki.jpg" alt=""/>
+                        <img src="https://guardian.ng/wp-content/uploads/2018/10/000_19U58H.jpg" alt=""/>
                     </div>
                     <div class="lopremtext">
-                        <h1>Lorem Ipsum </h1>
+                        <h1>Nigeria's politics as garden of promises and upheavals</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -46,7 +46,7 @@ const Newspage = () => {
 
                 <div class="newspicloprem">
                     <div class="picture">
-                        <img src="https://play-lh.googleusercontent.com/ytJFfv3Z4dICKFcnV00VJJxhMPNfZbwHdaIva4vURlXIEmxjVWoekcRX6BA1R19kFg" alt=""/>
+                        <img src="https://guardian.ng/wp-content/uploads/2020/08/Asiwaju-Bola-Ahmed-Tinubu-531x299.jpg" alt=""/>
                     </div>
                     <div class="lopremtext">
                         <h1>Lorem Ipsum </h1>
@@ -78,7 +78,7 @@ const Newspage = () => {
 
                 <div class="newspicloprem">
                     <div class="picture">
-                        <img src="https://ichef.bbci.co.uk/news/464/media/images/51468000/jpg/_51468139_paul_464.jpg" alt=""/>
+                        <img src="https://2.bp.blogspot.com/-WK8BgvHkZn0/WLFkztf-aCI/AAAAAAAAm5g/LYAb6i8K_XA2pZ8zZC89KMfKvcgFxAlRACLcB/s400/Atiku-Abubakar1.jpg" alt=""/>
                     </div>
                     <div class="lopremtext">
                         <h1>Lorem Ipsum </h1>
