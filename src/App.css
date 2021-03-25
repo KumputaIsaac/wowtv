@@ -42,9 +42,10 @@ a{
 section,div{
   /* border: 2px solid black; */
 }
-.none{
+.none,.fayose:last-child{
   display: none;
 }
+
 
 .pofnewsbackground{
   height: 40px;
@@ -574,7 +575,7 @@ footer .allnavsbelow a{
       margin: auto;
   }
   .fayoseimage {
-      /* height: 270px; */
+      max-height: 300px;
   }
   .fayoseimage.remove{
       display: none;
@@ -584,10 +585,13 @@ footer .allnavsbelow a{
       display: block;
       height: 100%;
   }
-  .fayose.comot{
+  /* .fayose.comot{
+      display: none;
+  } */
+  .fayose:nth-child(3){
       display: none;
   }
-  .fayose.none{
+  .fayose:last-child{
       display: block;
   }
   .fayosetext{

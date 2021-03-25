@@ -19,7 +19,7 @@ const Sports = () => {
                     </div>
 
                     <div className="fayose">
-                        <div className="fayoseimage remove">
+                        <div className="fayoseimage ">
                             <img src="https://www.naijaloaded.com.ng/wp-content/uploads/2017/03/Temmie-Ovwasa.jpg" alt=""/>
                         </div>
                         <div className="fayosetext">
@@ -30,8 +30,8 @@ const Sports = () => {
                         </div>
                     </div>
 
-                    <div className="fayose comot">
-                        <div className="fayoseimage remove">
+                    <div className="fayose ">
+                        <div className="fayoseimage ">
                             <img src="https://images.daznservices.com/di/library/GOAL/c2/94/cristiano-ronaldo-ballon-dor-gfx_69txdzyqqxsv12bwau4qq7xkl.jpeg?t=1537186536&amp;quality=60&amp;w=700" alt=""/>
                         </div>
                         <div className="fayosetext">
@@ -42,9 +42,9 @@ const Sports = () => {
                         </div>
                     </div>
                     
-                    <div className="fayose none">
+                    <div className="fayose ">
                         <div className="fayoseimage">
-                            <img src="https://image.shutterstock.com/image-photo/concerned-wondered-adult-european-guy-600w-1707717628.jpg" alt=""/>
+                            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/sale-advert-shopping-discount-promo-table-laptop-promo-code-design-template-0aef6227891580ac84a2f5b6cfc8de76_screen.jpg?ts=1561513027" alt=""/>
                         </div>
                         {/* <div className="fayosetext">
                             <div className="title">
