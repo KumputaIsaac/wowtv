@@ -265,6 +265,9 @@ i,.header .navbar ul li{
 
 .ekitipeople{
   width: 63%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
 }
 
 
@@ -340,7 +343,7 @@ i,.header .navbar ul li{
   justify-content: space-between;
   height: auto;
   padding: 20px 10px;
-  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid black; */
   background: url(./image/logo2.jpg);
   /* background-color:rgba(8, 8, 8, 0.5); */
 
@@ -547,7 +550,7 @@ footer .allnavsbelow a{
   }
   .burna,.titleekiti {
       height: auto;
-      border-bottom: 1px solid black;
+      /* border-bottom: 1px solid black; */
   }
   .burna .image,.ekitipeople{
       display: none;
@@ -600,7 +603,7 @@ footer .allnavsbelow a{
   }
   /* hr  */
   hr{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10px 0;
   }
   

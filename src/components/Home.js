@@ -17,7 +17,7 @@ const Home = () => {
             <section id='home' className="home">
                 <div className="welcomedate">
                     <div className="welcome">
-                        <h1>Welcome to POF TV</h1>
+                        <h1>Welcome to WOW TV</h1>
                     </div>
                     <div className="date">
                         <h1 id="date">{realdate}</h1>
@@ -35,10 +35,12 @@ const Home = () => {
                             <div className="titleekiti">
                                 <b>EKITI PEOPLE CULTURALLY HOMOGENEOUS PRACTICES AND HIGHLT ESTEEMED VALUE SYSTEM</b>
                             </div>
+                            <hr/>
                             <div className="title">
                                 <h3>Burna Boy’s Song in Biden Inauguration Playlist</h3>
                                 <p>The 46-songs playlist was curated to reflect diversity in the US.</p>
                             </div>
+                            <hr />
                             <div className="details">
 
                             </div>
@@ -52,6 +54,7 @@ const Home = () => {
                                 <h3>The Old Chief AYETADE AKANBI Explains  Ekiti Values</h3>
                                 <p>The Chief of Ayedun West Hillside commented on Value system and its present degade.</p>
                             </div>
+                            <hr/>
                             <div className="details">
 
                             </div>
