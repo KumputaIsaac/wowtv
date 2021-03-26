@@ -37,6 +37,7 @@ const Pofnews = () => {
                                             <p>{test.text} </p>
                                         </div>
                                     </div>
+                                    <hr/>
                                 </div> 
                             )
                         })

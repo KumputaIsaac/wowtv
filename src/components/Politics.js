@@ -36,6 +36,7 @@ const Politics = () => {
                                         <p>{test.text} </p>
                                     </div>
                                 </div>
+                                <hr/>
                             </div> 
                         )
                     })
