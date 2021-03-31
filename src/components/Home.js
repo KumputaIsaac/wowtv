@@ -1,28 +1,13 @@
 import React from 'react'
+import Welcomespeech from './Welcomespeech'
 
 const Home = () => {
-    let d = new Date();
-    let day=d.getDay();
-    let date= d.getDate();
-    let month = d.getMonth();
-    let weekday = ["Sunday","Monday","Monday","Wednesday","Thursday","Friday","Saturday"]
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    let realday = weekday[day];
-    let realmonth = months[month];
-    let realdate = `${realday}  ${date},  ${ realmonth}`
 
 
 
     return (
             <section id='home' className="home">
-                <div className="welcomedate">
-                    <div className="welcome">
-                        <h1>Welcome to WOW TV</h1>
-                    </div>
-                    <div className="date">
-                        <h1 id="date">{realdate}</h1>
-                    </div>
-                </div>
+                <Welcomespeech />
                 <div className="livesession">
                     <div className="livesessionvideo">
                         <img src="https://miro.medium.com/max/960/1*NjFV7dKXAsnCTAZW-WKBBA.jpeg" alt=""/>

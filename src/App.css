@@ -42,7 +42,7 @@ a{
 section,div{
   /* border: 2px solid black; */
 }
-.none,.fayose:last-child{
+.none,.fayose:last-child, .burna hr{
   display: none;
 }
 
@@ -92,7 +92,7 @@ section.header{
   /* width: 20%; */
   min-width: 100px;
   height: 100%;
-  background-color: var(--dark-blue);
+  /* background-color: var(--dark-blue); */
 }
 
 .header .poftvlogo img{
@@ -447,7 +447,7 @@ footer .allnavsbelow a{
   .disable {
     display: none;
   }
-  .none{
+  .none, .burna hr{
       display: block;
   }
   .ileoba{
