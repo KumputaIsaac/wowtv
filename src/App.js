@@ -12,10 +12,11 @@ function App() {
   return (
     <>
       <Router >
-        <div className="pofnewsbackground"></div>
-        <div className="pofnewsbackgroundsmallcolor"></div>
+        
         <Switch>
           <Route exact path="/">
+            <div className="pofnewsbackground"></div>
+            <div className="pofnewsbackgroundsmallcolor"></div>
             <Homepage />
           </Route>
           <Route path="/news">
@@ -31,6 +32,8 @@ function App() {
             <Entertainmentpage />
           </Route>
           <Route path="/adminpage">
+            <div className="pofnewsbackground"></div>
+            <div className="pofnewsbackgroundsmallcolor"></div>
             <Adminpage />
           </Route>
         </Switch>

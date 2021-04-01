@@ -14,7 +14,7 @@ const Footer = () => {
             </button>
             <footer>
                 <div className="explore">
-                    <h1>Explore the POF TV News</h1>
+                    <h1>Explore the WOW TV News</h1>
                 </div>
                 <div className="allnavsbelow">
                     <div className="homenewssport">

@@ -2,6 +2,10 @@
     margin: 10px 0;
 }
 
+section,div{
+    /* border: 2px solid black; */
+}
+
 .dashboardup{
     display: flex;
 }
@@ -112,6 +116,7 @@
 }
 .content .left p{
     padding: 10px 13px;
+    cursor: pointer;
 }
 .content .left p:first-child , .content .left p:last-child{
     color: rgba(132, 132, 132, 0.5);
@@ -178,12 +183,19 @@
     margin: 13px 0;
 }
 
+.messages h1{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #F7FBFC;
+}
+
 
 /* prevselect  */
 
 .prevselect{
     display: flex;
-    margin-top: 10px;
+    margin-top: 30px;
     width: fit-content;
     margin-left: auto;
 }
@@ -192,8 +204,92 @@
     padding:0 10px;
 }
 
+
+
+/* pagecomponent  */
+.pagecomponent{
+    display: flex;
+    margin-top: 30px;
+    padding: 15px;
+    justify-content: space-between;
+    /* height: 125px; */
+    background: #FFFFFF;
+    border: 0.1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pagecomponent hr{
+    margin-top: 5px !important;
+
+}
+
+.editside{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.editside .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+
+.pagecomponent button{
+    font-size: 1rem;
+    height: 20px;
+    background: #F1FFFF;
+    border: 1px solid #71B7EA;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100px;
+    height: auto;
+    padding: 2px;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(152, 156, 160, 0.7);
+    outline: none;
+    cursor: pointer;
+}
+
+
+.deletechange{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttonchangedelete{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 115px;
+    height: 100%;
+    
+}
+
+.theimage{
+    width: 175px;
+    height: 95px;
+    background-color: beige;
+    margin-left: 30px;
+}
+
+.usepc{
+    display: none;
+    margin: 50px 0;
+    text-align: center;
+}
+
 @media (max-width:900px){
     .content,.dashboard{
-        visibility: hidden;
+        display: none;
+    }
+    .usepc{
+        display: block;
     }
 }
+
