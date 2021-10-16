@@ -1,800 +1,790 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
-  scroll-behavior: smooth;
-  
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	scroll-behavior: smooth;
 }
-body{
-  color: var(--text-color-one);
-  /* background-color:linear-gradient(#dcf0ef, #e7f8f7, #f3fdfd); ; */
-  background-image: linear-gradient(#dcf0ef, #e7f8f7, #f3fdfd);
-  /* background: url(https://i.pinimg.com/736x/e4/e4/b6/e4e4b6fd69b547817447da03dcc131ef.jpg); */
-  /* background-repeat: no-repeat;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover;  */
-  /* transform: matrix(1, 0, 0, -1, 0, 0); */
-
+body {
+	color: var(--text-color-one);
 }
 
 :root {
-  --dark-blue: #023059;
-  --light-blue: #c4e1f2;
-  --text-color-one: #000000 70%;
+	--dark-blue: #023059;
+	--light-blue: #c4e1f2;
+	--text-color-one: #000000 70%;
 
-  --h1-color: #7EA19B;
+	--h1-color: #7ea19b;
 }
 html {
-  font-size: 62.5%;  
+	font-size: 62.5%;
 }
-img{
-  width: 100%;
-  /* height: 100%; */
+img {
+	width: 100%;
+	/* height: 100%; */
 }
-a{
-  text-decoration: none;
-  color: inherit;
-}
-
-section,div{
-  /* border: 2px solid black; */
-}
-.none,.fayose:last-child, .burna hr{
-  display: none;
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
-
-.pofnewsbackground{
-  height: 40px;
-  /* background-color: var(--dark-blue); */
-  background: linear-gradient(90deg, rgba(49, 61, 65, 0.973958) 1.64%, rgba(68, 90, 97, 0) 18.32%, rgba(66, 86, 93, 0.121745) 31.97%, rgba(49, 61, 65, 0.973958) 46.63%, rgba(68, 90, 97, 0.0178572) 64.83%, rgba(68, 90, 97, 0.0593562) 76.97%, #445A61 98.7%),
-  linear-gradient(0deg, rgba(68, 90, 97, 0.9), rgba(68, 90, 97, 0.9));
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-
+section,
+div {
+	/* border: 2px solid black; */
 }
-.pofnewsbackgroundsmallcolor{
-  height: 5px;
-  background-color: aqua;
+.none,
+.fayose:last-child,
+.burna hr {
+	display: none;
 }
 
-
-.contain{
-  /* padding: 0 30px; */
-  padding: 0 93px 0 73px;
+.pofnewsbackground {
+	height: 40px;
+	/* background-color: var(--dark-blue); */
+	background: linear-gradient(
+			90deg,
+			rgba(49, 61, 65, 0.973958) 1.64%,
+			rgba(68, 90, 97, 0) 18.32%,
+			rgba(66, 86, 93, 0.121745) 31.97%,
+			rgba(49, 61, 65, 0.973958) 46.63%,
+			rgba(68, 90, 97, 0.0178572) 64.83%,
+			rgba(68, 90, 97, 0.0593562) 76.97%,
+			#445a61 98.7%
+		),
+		linear-gradient(0deg, rgba(68, 90, 97, 0.9), rgba(68, 90, 97, 0.9));
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
 }
-.contain h1{
-  color: var(--h1-color);
-}
-h1 span{
-  padding-right: 20px;
-}
-section.header{
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
-  align-items: center;
-}
-.header{
-  background-color: #ffffff;
-  /* margin: 0 -90px; */
-  color: #989CA0;
-  font-weight: 400;
-  /* padding: 0 30px 0 0; */
-  padding-right: 30px;
-}
-.header .poftvlogo{
-  /* width: 20%; */
-  min-width: 100px;
-  height: 100%;
-  /* background-color: var(--dark-blue); */
+.pofnewsbackgroundsmallcolor {
+	height: 5px;
+	background-color: aqua;
 }
 
-.header .poftvlogo img{
-  width: auto;
-  height: 100%;
+.contain {
+	/* padding: 0 30px; */
+	padding: 0 93px 0 73px;
+}
+.contain h1 {
+	color: var(--h1-color);
+}
+h1 span {
+	padding-right: 20px;
+}
+section.header {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+}
+.header {
+	background-color: #ffffff;
+	/* margin: 0 -90px; */
+	color: #989ca0;
+	font-weight: 400;
+	/* padding: 0 30px 0 0; */
+	padding: 0 30px;
+}
+.header .poftvlogo {
+	/* width: 20%; */
+	min-width: 100px;
+	height: 100%;
+	/* background-color: var(--dark-blue); */
 }
 
-.header .navbar{
-  /* width: stretch; */
-  text-align: center;
+.header .poftvlogo img {
+	width: auto;
+	height: 100%;
 }
 
-.header .navbar ul{
-  list-style: none;
-  display: inline-flex;
+.header .navbar {
+	/* width: stretch; */
+	text-align: center;
 }
 
-.header .navbar ul li{
-  padding: 0 30px;
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  color: #989CA0, 100%;
-
+.header .navbar ul {
+	list-style: none;
+	display: inline-flex;
 }
-.header .navbar ul li:hover{
-  font-weight: bold;
+
+.header .navbar ul li {
+	padding: 0 30px;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	color: #989ca0, 100%;
+}
+.header .navbar ul li:hover {
+	font-weight: bold;
 }
 
 /* more  */
 
-.menu-list ul{
-  display: inline-flex;
-  list-style: none;
-  padding: 0;
+.menu-list ul {
+	display: inline-flex;
+	list-style: none;
+	padding: 0;
 }
 
-.menu-list ul li:hover{
-  background-color: azure;
+.menu-list ul li:hover {
+	background-color: azure;
 }
-.slide{
-  display: none;
-  background-color: #e8f2fd;
+.slide {
+	display: none;
+	background-color: #e8f2fd;
 }
-.menu-list ul li:hover .slide{
-  display: block;
-  position: absolute;
+.menu-list ul li:hover .slide {
+	display: block;
+	position: absolute;
 }
-.menu-list ul li:hover .slide ul{
-  display: block;
+.menu-list ul li:hover .slide ul {
+	display: block;
 }
-.slide ul li{
-  padding: 20px 5px !important;
+.slide ul li {
+	padding: 20px 5px !important;
 }
-.menu-item{
-  cursor: pointer;
-}
-
-.links{
-  text-decoration: none;
-  color: #989CA0;
+.menu-item {
+	cursor: pointer;
 }
 
+.links {
+	text-decoration: none;
+	color: #989ca0;
+}
 
 .header .search {
-  width: 20%;
-  display: flex;
-  align-items: center;
-  border-radius: 50px;
-  padding-left: 5px;
-  height:60%;
-  border-color: #71B7EA;
-  background: #EEF2F2;
-  ;
+	width: 20%;
+	display: flex;
+	align-items: center;
+	border-radius: 50px;
+	padding-left: 5px;
+	height: 60%;
+	border-color: #71b7ea;
+	background: #eef2f2;
 }
 
-.header .search input{
-  height: 100%;
-  outline: none;
-  border: none;
-  border-radius: 10px;
-  margin-left: 10px;
-  width: 85%;
-  background: #EEF2F2;
+.header .search input {
+	height: 100%;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	margin-left: 10px;
+	width: 85%;
+	background: #eef2f2;
 }
 
-.header .search i{
-  padding-right: 5px;
+.header .search i {
+	padding-right: 5px;
 }
-i,.header .navbar ul li{
-  cursor: pointer;
-}
-
-.hiddensearch{
-  display: none;
-  font-size: 1.5rem;
+i,
+.header .navbar ul li {
+	cursor: pointer;
 }
 
-
+.hiddensearch {
+	display: none;
+	font-size: 1.5rem;
+}
 
 /* home */
-.home{
-  padding: 40px 0;
+.home {
+	padding: 40px 0;
 }
 
-.welcomedate{
-  display: flex;
-  justify-content: space-between;
-  color: #848484;
+.welcomedate {
+	display: flex;
+	justify-content: space-between;
+	color: #848484;
 }
-.livesession{
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-between;
+.livesession {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
 }
-.livesessionvideo{
-  height: auto;
-  max-height: 540px;
-  /* width: 70%; */
-  width: 815px;
-  margin-right: 76px;
-  min-width: 40px;
+.livesessionvideo {
+	height: auto;
+	max-height: 540px;
+	/* width: 70%; */
+	width: 815px;
+	margin-right: 76px;
+	min-width: 40px;
 }
-.burnachief{
-  height: auto;
-  width: 384px;
-  min-width: 40px;
-  overflow: overlay;
+.burnachief {
+	height: auto;
+	width: 384px;
+	min-width: 40px;
+	overflow: overlay;
 }
-.burna{
+/* .burna{
   height: 250px;
-}
+} */
 .burna:nth-child(2) {
-  padding-top: 10px;
+	margin-top: 10px;
 }
 
-.burna .image{
-  height: 200px;
+.burna .image {
+	height: 200px;
 }
-.titleekiti{
-  display: none;
+.titleekiti {
+	display: none;
 }
-.burna .title{
-  height: auto;
-  overflow: hidden;
-}
-.poftvnextprev{
-  display: flex;
-  justify-content: space-between;
-}
-.pottvsession{
-  width: 63%;
-  border-bottom: 2px solid black;
-}
-.pottvsession p{
-  padding: 10px 0;
-}
-.nextprev{
-  display: flex;
-  padding: 10px 0;
-  width: 30%;
-  justify-content: flex-end;
-  border-bottom: 2px solid black;
-}
-.nextprev .prev{
-  margin-right: 10%;
+.burna .title {
+	height: auto;
+	overflow: hidden;
 }
 
-.ekitipeople{
-  width: 63%;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+.burna .title h3 {
+	margin: 5px 0;
+}
+.poftvnextprev {
+	display: flex;
+	justify-content: space-between;
+}
+.pottvsession {
+	width: 63%;
+	border-bottom: 2px solid black;
+}
+.pottvsession p {
+	padding: 10px 0;
+}
+.nextprev {
+	display: flex;
+	padding: 10px 0;
+	width: 30%;
+	justify-content: flex-end;
+	border-bottom: 2px solid black;
+}
+.nextprev .prev {
+	margin-right: 10%;
 }
 
+.ekitipeople {
+	width: 63%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+}
 
 /* newssport */
-.newssport h1{
-  padding: 20px 0;
+.newssport h1 {
+	padding: 20px 0;
 }
-.pofnewssport{
-  display: flex;
-  justify-content: space-between;
+.pofnewssport {
+	display: flex;
+	justify-content: space-between;
 }
-.pofnewssport .details{
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-  height: 260px;
+.pofnewssport .details {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	height: 260px;
 }
-.advert{
-  width: 25%;
-  background: beige;
-}   
-.advert.two{
-  margin-top: -70px;
-  margin-bottom: -220px;
+.advert {
+	width: 25%;
+	background: beige;
 }
-.advert.three{
-  margin-top: -70px;
+.advert.two {
+	margin-top: -70px;
+	margin-bottom: -220px;
 }
-.fayose{
-  height: 100%;
-  width: 300px;
-  overflow: hidden;
-  margin-right: 19px;
+.advert.three {
+	margin-top: -70px;
 }
-.fayoseimage{
-  height: 70%;
+.fayose {
+	height: 100%;
+	width: 300px;
+	overflow: hidden;
+	margin-right: 19px;
 }
-.fayosetext{
-  height: 30%;
-  padding: 0 10px;
+.fayoseimage {
+	height: 180px;
+	overflow: hidden;
 }
-.fayose.none{
-  display: none;
+.fayosetext {
+	height: 30%;
+	padding: 0 10px;
 }
 
+.fayose hr {
+	display: none;
+}
+.fayose.none {
+	display: none;
+}
 
 /* ile oba to jona */
-.ileoba{
-  height: 200px;
-  background: url(https://static-cse.canva.com/image/125213/texture.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-right: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 20px;
-  
+.ileoba {
+	height: 200px;
+
+	padding-right: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 20px;
 }
 
-.tojo h1{
-  font-size: 3rem;
-  color: white;
+.tojo h1 {
+	font-size: 3rem;
+	color: white;
 }
-
 
 /* wish  */
-.wish{
-  display: flex;
-  justify-content: space-between;
-  height: auto;
-  padding: 20px 10px;
-  /* border-bottom: 2px solid black; */
-  background: url(./image/logo2.jpg);
-  /* background-color:rgba(8, 8, 8, 0.5); */
-
+.wish {
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+	padding: 20px 10px;
+	/* border-bottom: 2px solid black; */
+	background: url(./image/logo2.jpg);
+	/* background-color:rgba(8, 8, 8, 0.5); */
 }
 
-
-
-.wish .poftvlogo{
-  width: 20%;
-  /* background-color: var(--dark-blue); */
-  /* background: url(./image/watermark.PNG) no-repeat; */
+.wish .poftvlogo {
+	width: 20%;
+	/* background-color: var(--dark-blue); */
+	/* background: url(./image/watermark.PNG) no-repeat; */
 }
 
-.wish .text{
-  width: 90%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* font-size: 28px; */
-  font-style: normal;
-  font-weight: 350;
-  line-height: 37px;
-  letter-spacing: 0em;
-  text-align: left;
-  background-color: rgba(220,240,239,0.8);
-
+.wish .text {
+	width: 90%;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* font-size: 28px; */
+	font-style: normal;
+	font-weight: 350;
+	line-height: 37px;
+	letter-spacing: 0em;
+	text-align: left;
+	background-color: rgba(220, 240, 239, 0.8);
 }
-.wish .text p{
-  padding-top: 20px;
+.wish .text p {
+	padding-top: 20px;
 }
 
 /* malachimasterclass */
-.malachimasterclass{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.malachimasterclass {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
-.malachimasterclass .dance{
-  height: 370px;
-  width: 45%;
-  min-width: 200px;
-  margin-top: 20px;
+.malachimasterclass .dance {
+	height: 370px;
+	width: 45%;
+	min-width: 200px;
+	margin-top: 20px;
 }
-
-
 
 /* lastadvert */
-.lastadvert{
-  margin-bottom: 40px;
+.lastadvert {
+	margin-bottom: 40px;
 }
 
-.lastadvert .dance{
-  height: 180px;
+.lastadvert .dance {
+	height: 180px;
 }
-.lastadvert .dance.two{
-  display: flex;
-  justify-content: space-between;
+.lastadvert .dance.two {
+	display: flex;
+	justify-content: space-between;
 }
-.lastadvert .danceadvert{
-  width: 45%;
-  margin-top: 20px;
+.lastadvert .danceadvert {
+	width: 45%;
+	margin-top: 20px;
 }
 
 /* all images  */
-.livesessionvideo,.image,.fayoseimage,.advert,.poftvlogo,.dance,.danceadvert{
-  overflow: hidden;
+.livesessionvideo,
+.image,
+.fayoseimage,
+.advert,
+.poftvlogo,
+.dance,
+.danceadvert {
+	overflow: hidden;
 }
 
 /* footer  */
-footer{
-  padding: 10px 70px 10px 90px;
-  background: #5F5E67 80%;
+footer {
+	padding: 10px 70px 10px 90px;
+	background: #5f5e67 80%;
 }
-footer .allnavsbelow a{
-  text-decoration: none;
-  color: black;
+footer .allnavsbelow a {
+	text-decoration: none;
+	color: black;
 }
-.allnavsbelow{
-  border-bottom: 1px solid #F0F0F0 ;
+.allnavsbelow {
+	border-bottom: 1px solid #f0f0f0;
 }
-.homenewssport{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.homenewssport {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-.homenewssport .all{
-  padding: 20px;
-  border-right: 1px solid #F0F0F0;
+.homenewssport .all {
+	padding: 20px;
+	border-right: 1px solid #f0f0f0;
 }
-.homenewssport .all:hover{
-  font-weight: bold;
-  cursor: pointer;
+.homenewssport .all:hover {
+	font-weight: bold;
+	cursor: pointer;
 }
-.copyright{
-  text-align: center;
-  margin: 10px 0;
+.copyright {
+	text-align: center;
+	margin: 10px 0;
 }
-
-
-
 
 @media screen and (max-width: 980px) {
-  .disable {
-    display: none;
-  }
-  .none, .burna hr{
-      display: block;
-  }
-  .ileoba{
-      padding-right: 30%;
-  }
+	.disable {
+		display: none;
+	}
+	.none,
+	.burna hr {
+		display: block;
+	}
+	.ileoba {
+		padding-right: 30%;
+	}
 }
 @media screen and (max-width: 980px) {
-  .homenewssport .all{
-      padding: 20px;
-      border-right: none;
-  }
+	.homenewssport .all {
+		padding: 20px;
+		border-right: none;
+	}
 }
 
-@media screen and (max-width: 600px){
-  .menu-list ul li:hover .slide {
-    display: block;
-    position: absolute;
-    right: 10%;
+@media screen and (max-width: 600px) {
+	.menu-list ul li:hover .slide {
+		display: block;
+		position: absolute;
+		right: 10%;
+	}
+	.lastadvert .dance.two {
+		display: block;
+		text-align: center;
+	}
+	.lastadvert .danceadvert {
+		/* height: 50%; */
+	}
+	.lastadvert .danceadvert {
+		width: 100%;
+	}
+	.pottvsession {
+		width: 58%;
+	}
+
+	.nextprev {
+		width: 25%;
+	}
+	.ekitipeople {
+		width: 58%;
+	}
 }
-  .lastadvert .dance.two{
-      display: block;
-      text-align: center;
-  }
-  .lastadvert .danceadvert {
-      /* height: 50%; */
-  }
-  .lastadvert .danceadvert{
-      width: 100%;
-  }
-  .pottvsession{
-      width: 58%;
-  }
-  
-  .nextprev{
-      width: 25%;
-  }
-  .ekitipeople{
-      width: 58%;
-  }
 
-}
+@media screen and (max-width: 900px) {
+	html {
+		font-size: 80%;
+	}
+	.contain {
+		padding: 0 10px;
+	}
+	* {
+		font-size: 1.2rem;
+	}
+	.header {
+		margin: 0;
+	}
+	.header .navbar ul li {
+		padding: 10px;
+	}
+	.header .search {
+		display: none;
+	}
+	.hiddensearch {
+		display: block;
+	}
 
-@media screen and (max-width: 900px){
-  html{
-      font-size: 80%;
-  }
-  .contain{
-      padding: 0 10px;
-  }
-  *{
-      font-size: 1.2rem;
-  }
-  .header{
-      margin: 0;
-  }
-  .header .navbar ul li{
-  padding: 10px;
-  }
-  .header .search {
-      display: none;
-  }
-  .hiddensearch{
-      display: block;
-  }
-  
+	.livesession {
+		padding-top: 10px;
+		display: block;
+	}
+	.livesessionvideo {
+		/* height: 300px; */
+		width: 100%;
+		min-width: 40px;
+	}
+	.burnachief {
+		height: auto;
+		width: 80%;
+		min-width: 40px;
+		margin: auto;
+		margin-top: 10px;
+	}
+	.poftvnextprev {
+		display: none;
+	}
+	.welcomedate {
+		display: none;
+	}
+	.home {
+		padding-top: 0;
+	}
+	.burna {
+		padding: 10px 0;
+	}
+	.burna.try {
+		padding: 0;
+	}
+	.burna.try .title {
+		padding: 5px 0;
+	}
+	.burna,
+	.titleekiti {
+		height: auto;
+		/* border-bottom: 1px solid black; */
+	}
+	.burna .image,
+	.ekitipeople {
+		display: none;
+	}
+	.titleekiti {
+		display: block;
+	}
+	.title,
+	.titleekiti {
+		padding: 7px 0;
+	}
 
-  .livesession{
-      padding-top: 10px;
-      display: block;
-  }
-  .livesessionvideo {
-      /* height: 300px; */
-      width: 100%;
-      min-width: 40px;
-  }
-  .burnachief {
-      height: auto;
-      width: 80%;
-      min-width: 40px;
-      margin: auto;
-      margin-top: 10px;
-  }
-  .poftvnextprev{
-      display: none;
-  }
-  .welcomedate{
-      display: none;
-  }
-  .home{
-      padding-top: 0;
-  }
-  .burna{
-      padding: 10px 0;
-  }
-  .burna.try{
-      padding: 0;
-  }
-  .burna.try .title{
-      padding: 5px 0;
-  }
-  .burna,.titleekiti {
-      height: auto;
-      /* border-bottom: 1px solid black; */
-  }
-  .burna .image,.ekitipeople{
-      display: none;
-  }
-  .titleekiti{
-      display: block;
-  }
-  .title,.titleekiti{
-      padding: 7px 0;
-  }
-
-  /* .pofnewssport */
-  .pofnewssport .details{
-      width: 100%;
-      display: block;
-      /* height: 260px; */
-  }
-  .pofnewssport .advert{
-      display: none;
-  }
-  .fayose {
-      /* height: 100%; */
-      width: 80%;
-      overflow: hidden;
-      margin: auto;
-  }
-  .fayoseimage {
-      max-height: 300px;
-  }
-  .fayoseimage.remove{
-      display: none;
-  }
-  .pofnewssport .details {
-      width: 100%;
-      display: block;
-      height: 100%;
-  }
-  /* .fayose.comot{
+	/* .pofnewssport */
+	.pofnewssport .details {
+		width: 100%;
+		display: block;
+		/* height: 260px; */
+	}
+	.pofnewssport .advert {
+		display: none;
+	}
+	.fayose {
+		/* height: 100%; */
+		width: 80%;
+		overflow: hidden;
+		margin: auto;
+	}
+	.fayoseimage {
+		max-height: 450px;
+	}
+	.fayoseimage.remove {
+		display: none;
+	}
+	.pofnewssport .details {
+		width: 100%;
+		display: block;
+		height: 100%;
+	}
+	/* .fayose.comot{
       display: none;
   } */
-  .fayose:nth-child(3){
-      display: none;
-  }
-  .fayose:last-child{
-      display: block;
-  }
-  .fayosetext{
-      /* border-bottom: 1px solid black; */
-      padding: 0;
-  }
-  /* hr  */
-  hr{
-    /* border: 1px solid black; */
-    margin: 10px 0;
-  }
-  
+	.fayose:nth-child(3) {
+		display: none;
+	}
+	.fayose:last-child {
+		display: block;
+	}
+	.fayosetext {
+		/* border-bottom: 1px solid black; */
+		padding: 0;
+	}
+	/* hr  */
 
-  /* ileoba to jona */
-  .ileoba{
-      padding: 40px 0;
-  }
+	.fayose hr {
+		display: block;
+	}
+	hr {
+		/* border: 1px solid black; */
+		margin: 10px 0;
+	}
 
-  /* .wish  */
-  .wish{
-      display: block;
-      /* background: url('./image/watermark.PNG'); */
-  }
-  .wish .text{
-      width: 100%;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-style: normal;
-      font-weight: 350;
-      line-height: 25px;
-      letter-spacing: 0em;
-      text-align: left;
-  }
-  .wish .poftvlogo{
-      height: 80px;
-      width: 30%;
-      min-width: 140px;
-  }
-  /* malachi  */
-  .malachimasterclass .dance{
-      height: auto;
-      min-width: 80%;
-      width: 80%;
-  }
-  .malachimasterclass{
-      justify-content: center;
-  }
-  /* footer  */
-  footer{
-      padding: 15px 0;
-  }
-  footer .explore{
-      text-align: center;
-  }
-  .homenewssport{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-  }
-} 
-@media screen and (max-width: 450px){
-  .header{
-    padding-left: 0;
-    padding-right: 10px;
-  }
-  .header .navbar ul li {
-    padding: 7px;
-    font-size: 1rem;
+	/* ileoba to jona */
+	.ileoba {
+		padding: 40px 0;
+	}
+
+	/* .wish  */
+	.wish {
+		display: block;
+		/* background: url('./image/watermark.PNG'); */
+	}
+	.wish .text {
+		width: 100%;
+		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		font-style: normal;
+		font-weight: 350;
+		line-height: 25px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.wish .poftvlogo {
+		height: 80px;
+		width: 30%;
+		min-width: 140px;
+	}
+	/* malachi  */
+	.malachimasterclass .dance {
+		height: auto;
+		min-width: 80%;
+		width: 80%;
+	}
+	.malachimasterclass {
+		justify-content: center;
+	}
+	/* footer  */
+	footer {
+		padding: 15px 0;
+	}
+	footer .explore {
+		text-align: center;
+	}
+	.homenewssport {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
 }
-.header .poftvlogo {
-  width: 30%;
-}
-.header .poftvlogo img{
-  width: 100%;
-}
-  .burnachief {
-      height: auto;
-      width: 100%;
-  }
-  .fayose {
-      /* height: 100%; */
-      width: 100%;
-      overflow: hidden;
-      margin: auto;
-  }
-  .fayosetext{
-      padding: 0;
-  }
-  .malachimasterclass .dance{
-      /* height: 200px; */
-      min-width: 100%;
-      width: 100%;
-  }
-  .newspicloprem .picture{
-    margin: auto;
-    width: 100%;
-}
+@media screen and (max-width: 450px) {
+	.header {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+	.header .navbar ul li {
+		padding: 7px;
+		font-size: 1rem;
+	}
+	.header .poftvlogo {
+		width: 30%;
+	}
+	.header .poftvlogo img {
+		width: 100%;
+	}
+	.burnachief {
+		height: auto;
+		width: 100%;
+	}
+	.fayose {
+		/* height: 100%; */
+		width: 100%;
+		overflow: hidden;
+		margin: auto;
+	}
+	.fayosetext {
+		padding: 0;
+	}
+	.malachimasterclass .dance {
+		/* height: 200px; */
+		min-width: 100%;
+		width: 100%;
+	}
+	.newspicloprem .picture {
+		margin: auto;
+		width: 100%;
+	}
 }
 
 /* button  */
 #myBtn {
-  /* display: none; Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: transparent; /* Set a background color */
-  color: #E4E4E4; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+	/* display: none; Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: transparent; /* Set a background color */
+	color: #e4e4e4; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
 }
-#myBtn{
-    font-size: 3rem;
+#myBtn {
+	font-size: 3rem;
 }
-
 
 #myBtn:hover {
-  background-color: #5F5E67; /* Add a dark-grey background on hover */
+	background-color: #5f5e67; /* Add a dark-grey background on hover */
 }
-
-
-
 
 /* newspage */
 
-
-.newshome{
-  /* height: 136px; */
-  text-align: center;
-  background-image: url(./image/zuma.PNG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 3rem;
+.newshome {
+	/* height: 136px; */
+	text-align: center;
+	background-image: url(./image/zuma.PNG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 3rem;
 }
 
-.newshome .homenews{
-  display: flex;
-  justify-content: center;
+.newshome .homenews {
+	display: flex;
+	justify-content: center;
 }
-.newshome h1{
-  font-size: 3rem;
-  margin-bottom: 5px;
-  
+.newshome h1 {
+	font-size: 3rem;
+	margin-bottom: 5px;
 }
-.newshome .homenews p{
-  padding: 10px;
-  font-weight: bold;
+.newshome .homenews p {
+	padding: 10px;
+	font-weight: bold;
 }
-.newshome .homenews p:first-child{
-  border-right: 2px solid black;
-}
-
-.newspicloprem{
-  display: flex;
-  margin-top: 40px;
+.newshome .homenews p:first-child {
+	border-right: 2px solid black;
 }
 
-.newspicloprem:last-child{
-  margin-bottom: 20px;
-}
-.newspicloprem .picture{
-  width: 350px;
-  height: auto;
-  margin-right: 40px;
-  padding-top: 30px;
-  overflow: hidden;
+.newspicloprem {
+	display: flex;
+	margin-top: 40px;
 }
 
-.newspicloprem .picture img{
-  width: 100%;
-  height: auto;
+.newspicloprem:last-child {
+	margin-bottom: 20px;
+}
+.newspicloprem .picture {
+	width: 350px;
+	height: auto;
+	margin-right: 40px;
+	padding-top: 30px;
+	overflow: hidden;
 }
 
-.newspicloprem .lopremtext{
-  width: 100%;
-  max-width: 700px;
+.newspicloprem .picture img {
+	width: 100%;
+	height: auto;
 }
 
-.newspicloprem .lopremtext h1{
-  text-decoration: underline;
-  margin-bottom: 10px;
-  font-size: 2rem;
-  text-align: center;
+.newspicloprem .lopremtext {
+	width: 100%;
+	max-width: 700px;
 }
 
-.newspicloprem .lopremtext p{
-  text-align: left;
+.newspicloprem .lopremtext h1 {
+	text-decoration: underline;
+	margin-bottom: 10px;
+	font-size: 2rem;
+	text-align: center;
 }
 
-@media (max-width: 600px){
-  .newspicloprem {
-      flex-wrap: wrap;
-  }
-  .newspicloprem .lopremtext{
-      margin-top: 20px;
-  }
-  .newspicloprem .picture{
-      margin: auto;
-  }
+.newspicloprem .lopremtext p {
+	text-align: justify;
 }
 
-
+@media (max-width: 600px) {
+	.newspicloprem {
+		flex-wrap: wrap;
+	}
+	.newspicloprem .lopremtext {
+		margin-top: 20px;
+	}
+	.newspicloprem .picture {
+		margin: auto;
+	}
+}
